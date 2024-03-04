@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import './App.css'
 import Meniu from '../components/Meniu.tsx';
+import Card from '../components/Cards.tsx';
 
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
     <>
       <div>
       <Meniu />
+      <Card />
       </div>
       <h1>САЛАМ АЛЕКСУС</h1>
       <h1>ЭТО МОЁ ТОЛСТОЖОПОЕ ПРИЛОЖЕНИЕ</h1>
